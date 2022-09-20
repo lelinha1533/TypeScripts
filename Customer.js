@@ -8,3 +8,4 @@ var Customer = /** @class */ (function () {
     return Customer;
 }());
 var cust = new Customer("Jimi", "Scott");
+console.log(cust.GetName());
