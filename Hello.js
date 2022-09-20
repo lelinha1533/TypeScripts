@@ -2,6 +2,11 @@ function greeter(person) {
     return "Hello, " + person;
 }
 var user = "Jane User";
-document.body.textContent = greeter(user);
-// compile: Git Bash
+var info = {
+    name: "Nguyen Van Cuong",
+    domain: "Freetuts.net"
+};
+console.log(info);
+//document.body.textContent = greeter(user);
+// compile:
 // tsc greeter.ts

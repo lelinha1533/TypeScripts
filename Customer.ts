@@ -10,3 +10,4 @@ class Customer {
     }  
 }  
 let cust = new Customer("Jimi","Scott");
+console.log(cust.GetName());
